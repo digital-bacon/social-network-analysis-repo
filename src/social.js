@@ -106,37 +106,37 @@ const methods = {
 
 // Returns an array with the uid for each individual
 Object.defineProperty(data, 'getUIDs', {
-  value: lib.getUIDs, // copy function from methods object in social.js
+  value: methods.getUIDs, // copy function from methods object in social.js
   writable: false
 });
 // Regex pattern for user ids
 Object.defineProperty(data, 'regexFormatUserId', {
-  value: lib.regexFormatUserId, // copy function from methods object in social.js
+  value: methods.regexFormatUserId, // copy function from methods object in social.js
   writable: false
 });
 // // Validates input as a user id
 Object.defineProperty(data, 'isValidFormatUserId', {
-  value: lib.isValidFormatUserId, // copy function from methods object in social.js
+  value: methods.isValidFormatUserId, // copy function from methods object in social.js
   writable: false
 });
 // Returns the total follows of an individual
 Object.defineProperty(data, 'countUserFollows', {
-  value: lib.countUserFollows, // copy function from methods object in social.js
+  value: methods.countUserFollows, // copy function from methods object in social.js
   writable: false
 });
 // Returns an array with the uid for each individual
 Object.defineProperty(data, 'getFollowCounts', {
-  value: lib.getFollowCounts, // copy function from methods object in social.js
+  value: methods.getFollowCounts, // copy function from methods object in social.js
   writable: false
 });
 // Returns an array with the uid for each individual
 Object.defineProperty(data, 'sortArrayOfObjects', {
-  value: lib.sortArrayOfObjects, // copy function from methods object in social.js
+  value: methods.sortArrayOfObjects, // copy function from methods object in social.js
   writable: false
 });
 // Returns an array with the uid for each individual
 Object.defineProperty(data, 'biggestFollower', {
-  value: lib.biggestFollower, // copy function from methods object in social.js
+  value: methods.biggestFollower, // copy function from methods object in social.js
   writable: false
 });
 
